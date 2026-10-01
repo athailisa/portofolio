@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Portofolio PKL - Atha Ilisa R | Siswi RPL</title>
+    <meta name="description" content="Portofolio Atha Ilisa R, siswi SMK PPLG yang siap PKL: web development, PHP, Laravel, MySQL, dan UI/UX Figma." />
+    <meta name="theme-color" content="#d9783a" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bubbles" aria-hidden="true">
+      <span
+        style="
+          left: 4%;
+          font-size: 18px;
+          animation-duration: 16s;
+          animation-delay: 0s;
+        "
+        >&lt;/&gt;</span
+      >
+      <span
+        style="
+          left: 12%;
+          font-size: 14px;
+          animation-duration: 13s;
+          animation-delay: 2s;
+        "
+        >{ }</span
+      >
+      <span
+        style="
+          left: 22%;
+          font-size: 12px;
+          animation-duration: 11s;
+          animation-delay: 4s;
+        "
+        >01</span
+      >
+      <span
+        style="
+          left: 33%;
+          font-size: 20px;
+          animation-duration: 19s;
+          animation-delay: 1s;
+        "
+        >git</span
+      >
+      <span
+        style="
+          left: 44%;
+          font-size: 13px;
+          animation-duration: 12s;
+          animation-delay: 6s;
+        "
+        >#!/</span
+      >
+      <span
+        style="
+          left: 55%;
+          font-size: 16px;
+          animation-duration: 15s;
+          animation-delay: 3s;
+        "
+        >( )</span
+      >
+      <span
+        style="
+          left: 65%;
+          font-size: 15px;
+          animation-duration: 14s;
+          animation-delay: 8s;
+        "
+        >npm</span
+      >
+      <span
+        style="
+          left: 74%;
+          font-size: 19px;
+          animation-duration: 18s;
+          animation-delay: 5s;
+        "
+        >&lt;/&gt;</span
+      >
+      <span
+        style="
+          left: 84%;
+          font-size: 12px;
+          animation-duration: 11s;
+          animation-delay: 7s;
+        "
+        >10</span
+      >
+      <span
+        style="
+          left: 92%;
+          font-size: 17px;
+          animation-duration: 16s;
+          animation-delay: 2.5s;
+        "
+        >{ }</span
+      >
+      <span
+        style="
+          left: 60%;
+          font-size: 11px;
+          animation-duration: 10s;
+          animation-delay: 9s;
+        "
+        >;</span
+      >
+      <span
+        style="
+          left: 28%;
+          font-size: 14px;
+          animation-duration: 13.5s;
+          animation-delay: 10s;
+        "
+        >php</span
+      >
+    </div>
+
+    <div class="progress" id="progress"></div>
+    <nav class="navbar">
+      <div class="max-w-[1000px] mx-auto px-3">
+        <div class="flex flex-wrap items-center justify-between gap-x-4">
+          <a class="navbar-brand" href="#"
+            ><i class="bi bi-code-slash"></i> portofolio<span class="dot">.rpl</span></a
+          >
+          <div
+            id="navMenu"
+            class="hidden md:flex md:items-center gap-1 md:gap-5 flex-col md:flex-row w-full md:w-auto order-last md:order-none mt-2 md:mt-0 pt-2 md:pt-0 border-t md:border-t-0"
+            style="border-color: var(--line)"
+          >
+            <a class="nav-link mono" href="#about">tentang</a>
+            <a class="nav-link mono" href="#timeline">perjalanan</a>
+            <a class="nav-link mono" href="#skills">keahlian</a>
+            <a class="nav-link mono" href="#projects">proyek</a>
+            <a class="nav-link mono" href="#contact">kontak</a>
+          </div>
+          <div class="flex items-center gap-2">
+            <button
+              id="themeToggle"
+              class="theme-toggle"
+              type="button"
+              aria-label="Ganti tema"
+            ><i class="bi bi-moon-stars-fill"></i></button>
+            <button
+              id="navToggle"
+              class="theme-toggle md:hidden"
+              type="button"
+              aria-label="Menu"
+            ><i class="bi bi-list fs-5"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="max-w-5xl mx-auto px-5">
+        <div class="hero-grid">
+          <div>
+            <span class="status mono"><i class="pulse"></i>Terbuka untuk PKL · Januari</span>
+            <h1>Halo, saya <span class="role">Atha Ilisa R</span></h1>
+            <p class="lede">
+              Siswa SMK jurusan Pengembangan Perangkat Lunak dan Gim yang antusias
+              mendalami dunia software development. Saya siap menerapkan ilmu yang
+              saya pelajari di sekolah untuk berkontribusi langsung dalam proyek
+              riil, sekaligus mengasah kemampuan coding dan penyelesaian masalah di
+              lingkungan kerja profesional.
+            </p>
+            <div class="flex flex-wrap gap-3 mt-6">
+              <a href="#projects" class="btn-amber px-6 py-3">Lihat Proyek Saya</a>
+              <a href="#contact" class="btn-ghost px-6 py-3">Hubungi Saya</a>
+            </div>
+          </div>
+          <div class="term">
+            <div class="term-bar">
+              <span class="term-dot" style="background:#ff5f56"></span>
+              <span class="term-dot" style="background:#ffbd2e"></span>
+              <span class="term-dot" style="background:#27c93f"></span>
+              <span class="term-path mono">profil.js</span>
+            </div>
+            <div class="term-body mono">
+              <div class="tk-com">// siap PKL, siap belajar</div>
+              <div><span class="tk-key">const</span> siswi <span class="tk-punc">=</span> {</div>
+              <div class="pl-6">Nama: <span class="tk-str">"Atha Ilisa R"</span>,</div>
+              <div class="pl-6">Jurusan: <span class="tk-str">"Rekayasa Perangkat Lunak"</span>,</div>
+              <div class="pl-6">Status: <span class="tk-fn">cariPeluang</span>(<span class="tk-str">"PKL"</span>)</div>
+              <div>};</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-alt">
+      <div class="max-w-5xl mx-auto px-5">
+        <div class="tag-num mono">01 / tentang</div>
+        <h2 class="sec-title">Tentang Saya</h2>
+        <div class="about-panel reveal reveal-up">
+          <p>
+            Saya saat ini sedang menempuh pendidikan di SMK jurusan
+            <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong>, dengan
+            ketertarikan mendalam pada pembuatan website yang bersih, responsif,
+            dan fungsional.
+          </p>
+          <p class="mb-0">
+            Selain mempelajari logika pemrograman dan basis data, saya juga
+            menyukai perancangan UI/UX di Figma agar aplikasi yang dibangun
+            nyaman dipakai sekaligus berfungsi baik. Etos kerja tinggi, cepat
+            belajar, dan antusias mendapat pengalaman industri lewat PKL.
+          </p>
+          <div class="stat-strip">
+            <div class="stat"><b>RPL</b><span>Jurusan</span></div>
+            <div class="stat"><b>Figma</b><span>UI/UX</span></div>
+            <div class="stat"><b>PKL</b><span>Target</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="max-w-5xl mx-auto px-5">
+        <div class="tag-num mono">02 / perjalanan</div>
+        <h2 class="sec-title">Perjalanan Pendidikan &amp; Organisasi</h2>
+        <div class="timeline">
+          <div class="tl-item reveal reveal-left">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year mono">Kelas X</span>
+              <h3>Mengenal Dunia RPL</h3>
+              <p>
+                Mulai belajar dasar HTML, CSS, dan logika pemrograman di jurusan
+                Rekayasa Perangkat Lunak.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tl-item reveal reveal-right"
+            style="transition-delay: 0.1s"
+          >
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year mono">Kelas XI</span>
+              <h3>Backend &amp; Basis Data</h3>
+              <p>
+                Memperdalam PHP, MySQL, serta mulai eksplorasi desain UI/UX
+                menggunakan Figma.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tl-item reveal reveal-left"
+            style="transition-delay: 0.2s"
+          >
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year mono">Kelas XII</span>
+              <h3>Persiapan PKL</h3>
+              <p>
+                Menyiapkan portofolio dan memperkuat proyek nyata, bersiap
+                memulai Praktik Kerja Lapangan (PKL) pada bulan Januari.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tl-item reveal reveal-right"
+            style="transition-delay: 0.3s"
+          >
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year mono">Organisasi</span>
+              <h3>Ekstrakurikuler &amp; Organisasi</h3>
+              <p>
+                Aktif di English Club pada Kelas X dan XI untuk mengasah
+                kemampuan berbahasa Inggris, serta menjadi pengurus MPK (Majelis
+                Perwakilan Kelas) sejak Kelas X hingga saat ini di Kelas XII.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-alt">
+      <div class="max-w-5xl mx-auto px-5">
+        <div class="tag-num mono">03 / keahlian</div>
+        <h2 class="sec-title">Keahlian &amp; Teknologi</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+          <div class="skill-chip reveal reveal-scale">
+            <div class="ext">.html/.css</div>
+            <h3>HTML5 / CSS3</h3>
+            <span class="role">Frontend Dasar</span>
+          </div>
+          <div
+            class="skill-chip reveal reveal-scale"
+            style="transition-delay: 0.06s"
+          >
+            <div class="ext">.js</div>
+            <h3>JavaScript</h3>
+            <span class="role">Interaktif Dasar</span>
+          </div>
+          <div
+            class="skill-chip reveal reveal-scale"
+            style="transition-delay: 0.12s"
+          >
+            <div class="ext">.php/.sql</div>
+            <h3>PHP &amp; MySQL</h3>
+            <span class="role">Backend / Database</span>
+          </div>
+          <div
+            class="skill-chip reveal reveal-scale"
+            style="transition-delay: 0.18s"
+          >
+            <div class="ext">.fig</div>
+            <h3>Figma</h3>
+            <span class="role">UI/UX Design</span>
+          </div>
+          <div
+            class="skill-chip reveal reveal-scale"
+            style="transition-delay: 0.24s"
+          >
+            <div class="ext">.git</div>
+            <h3>Git / GitHub</h3>
+            <span class="role">Version Control</span>
+          </div>
+          <div
+            class="skill-chip reveal reveal-scale"
+            style="transition-delay: 0.3s"
+          >
+            <div class="ext">tw</div>
+            <h3>Tailwind CSS</h3>
+            <span class="role">CSS Framework</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="max-w-5xl mx-auto px-5">
+        <div class="tag-num mono">04 / proyek</div>
+        <h2 class="sec-title">Proyek Pilihan</h2>
+        <div class="grid sm:grid-cols-2 gap-4 md:gap-5">
+          <div class="proj-card reveal reveal-left" style="transition-delay:0s">
+            <div class="proj-head"><span>~/proyek/piket-kelas</span><span class="live">Live</span></div>
+            <div class="proj-body">
+              <div><span class="chip">HTML/CSS</span><span class="chip">JavaScript</span></div>
+              <h3>Aplikasi Jadwal Piket Kelas</h3>
+              <p>Aplikasi web sederhana untuk mengatur dan menampilkan jadwal piket kebersihan kelas secara digital, dibuat dengan HTML, CSS, dan JavaScript murni.</p>
+              <div class="proj-links"><a href="https://piket-kelas.netlify.app" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Lihat Demo</a><a href="https://github.com/athailisa/piket-kelas" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a></div>
+            </div>
+          </div>
+          <div class="proj-card reveal reveal-right" style="transition-delay:0.1s">
+            <div class="proj-head"><span>~/proyek/kedai-kita-pos</span></div>
+            <div class="proj-body">
+              <div><span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">MySQL</span><span class="chip">Bootstrap</span></div>
+              <h3>Aplikasi Kasir (POS) "Kedai Kita"</h3>
+              <p>Aplikasi Point of Sale berbasis web untuk kedai kopi, dengan manajemen produk, transaksi penjualan real-time, cetak struk, serta hak akses berbeda untuk Admin dan Kasir.</p>
+              <div class="proj-links"><a href="https://github.com/athailisa/APK_POS" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a></div>
+            </div>
+          </div>
+          <div class="proj-card reveal reveal-left" style="transition-delay:0s">
+            <div class="proj-head"><span>~/proyek/stackrecall</span><span class="live">Live</span></div>
+            <div class="proj-body">
+              <div><span class="chip">HTML/CSS</span><span class="chip">JavaScript</span><span class="chip">Game</span></div>
+              <h3>StackRecall: Tech Memory Challenge</h3>
+              <p>Game kartu memori bertema teknologi dengan 4 level yang makin sulit, timer waktu bermain, animasi kartu 3D, dan tampilan responsif di HP maupun desktop. Dibuat dengan HTML, CSS, dan JavaScript murni.</p>
+              <div class="proj-links"><a href="https://stackrecall.netlify.app" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Lihat Demo</a><a href="https://github.com/athailisa/StackRecall" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-alt">
+      <div class="max-w-5xl mx-auto px-5">
+        <div class="tag-num mono">05 / kontak</div>
+        <h2 class="sec-title">Mari Terhubung</h2>
+        <div class="contact-panel reveal reveal-up">
+          <p class="mb-4">
+            Tertarik bekerja sama atau menawarkan kesempatan PKL? Jangan ragu
+            untuk menghubungi saya.
+          </p>
+          <div class="flex flex-wrap justify-center gap-3">
+            <a href="mailto:athailisa08@gmail.com" class="contact-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
+                />
+                <path
+                  d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
+                />
+              </svg>
+              Email Saya
+            </a>
+
+            <button
+              type="button"
+              class="contact-btn copy-email"
+              data-email="athailisa08@gmail.com"
+            >
+              <i class="bi bi-clipboard"></i> Salin Email
+            </button>
+            <a
+              href="https://www.linkedin.com/in/atha-ilisa-42a28843b"
+              target="_blank"
+              class="contact-btn"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.07-.926-2.07-2.07s.926-2.07 2.07-2.07 2.07.926 2.07 2.07-.926 2.07-2.07 2.07zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/athailisa"
+              target="_blank"
+              class="contact-btn"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.755-1.333-1.755-1.089-.744.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.42-1.305.763-1.605-2.665-.303-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-4">
+      <p class="mb-0">
+        © 2026 Atha Ilisa — dibuat dengan semangat untuk persiapan PKL RPL
+      </p>
+    </footer>
+
+    <button
+      id="toTop"
+      class="to-top"
+      type="button"
+      aria-label="Kembali ke atas"
+    ><i class="bi bi-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
